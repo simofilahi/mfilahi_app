@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: app
-          image: app-image
+          image: mfilahi/mfilahi_app:v1
           ports:
             - containerPort: 1337
