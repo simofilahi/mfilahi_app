@@ -4,5 +4,19 @@
   },
   "scripts": {
     "start": "node server.js"
-  }
+  },
+  "name": "mfilahi_app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simofilahi/mfilahi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simofilahi/mfilahi/issues"
+  },
+  "homepage": "https://github.com/simofilahi/mfilahi#readme",
+  "description": ""
 }

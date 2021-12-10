@@ -3,8 +3,9 @@ kind: Service
 metadata:
   name: app-service
 spec:
+  type: LoadBalancer
   selector:
-    app: app-service
+    app: app-dep
   ports:
     - protocol: TCP
       port: 1337
