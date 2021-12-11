@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app-dep
+  name: web-app-dep
   labels:
-    app: app-dep
+    app: web-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: app-dep
+      app: web-app
   template:
     metadata:
       labels:
-        app: app-dep
+        app: web-app
     spec:
       containers:
-        - name: app-dep
-          image: mfilahi/mfilahi_app:v2
+        - name: web-app
+          image: mfilahi/mfilahi_app:v1
           ports:
             - containerPort: 1337
